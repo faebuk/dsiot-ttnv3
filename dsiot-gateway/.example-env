@@ -1,0 +1,5 @@
+TTN_BROKER_URL=mqtts://eu1.cloud.thethings.network:8883
+TTN_BROKER_USERNAME=bfh-dsiot@ttn
+TTN_BROKER_PASSWORD=xxxxxxx
+
+DSIOT_BROKER_URL=mqtt://test.mosquitto.org
