@@ -2,4 +2,7 @@ TTN_BROKER_URL=mqtts://eu1.cloud.thethings.network:8883
 TTN_BROKER_USERNAME=bfh-dsiot@ttn
 TTN_BROKER_PASSWORD=xxxxxxx
 
-DSIOT_BROKER_URL=mqtt://test.mosquitto.org
+DSIOT_BROKER_URL=mqtt://iotedge.m121.ch
+DSIOT_BROKER_USERNAME=iot
+DSIOT_BROKER_PASSWORD=xxxxxxx
+DSIOT_TOPIC_ID=FS2022

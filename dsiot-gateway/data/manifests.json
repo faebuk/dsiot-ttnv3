@@ -1,0 +1,18 @@
+[
+  {
+    "instanceId": "berga12-heltec",
+    "location": "BFH Biel Lab",
+    "fields": [
+      {
+        "type": "temperature",
+        "unit": "°C",
+        "payloadField": "temperature"
+      },
+      {
+        "type": "humidity",
+        "unit": "%",
+        "payloadField": "humidity"
+      }
+    ]
+  }
+]

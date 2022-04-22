@@ -1,3 +1,4 @@
 export enum DeviceClass {
-  MyStrom = 'ms'
+  MyStrom = 'ms',
+  WeatherStation = 'ws'
 }

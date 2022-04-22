@@ -14,4 +14,4 @@ import { DeviceClass } from '../models/device-class';
 //   - dat (Live-Daten)
 //   - mnf (Manifest)
 //   - sta (Status)
-export const topic = (guid: string) => (aspect: Aspect) => (deviceClass: DeviceClass) => (id: string) => `dsiot/${guid}/${aspect}/${deviceClass}/${id}`;
+export const topic = (id: string) => (aspect: Aspect) => (deviceClass: DeviceClass) => (instanceId: string) => `S3/DSIOT/${id}/${aspect}/${deviceClass}/${instanceId}`;
