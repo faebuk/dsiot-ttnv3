@@ -1,7 +1,39 @@
 [
   {
     "instanceId": "berga12-heltec",
-    "location": "BFH Biel Lab",
+    "location": [
+      47.14248685252412,
+      7.243469059467317
+    ],
+    "tags": [
+      "Weatherstation",
+      "ESP32",
+      "LoRaWAN"
+    ],
+    "fields": [
+      {
+        "type": "temperature",
+        "unit": "°C",
+        "payloadField": "temperature"
+      },
+      {
+        "type": "humidity",
+        "unit": "%",
+        "payloadField": "humidity"
+      }
+    ]
+  },
+  {
+    "instanceId": "faebuk-ttgo-lora32",
+    "location": [
+      47.14248685252412,
+      7.243469059467317
+    ],
+    "tags": [
+      "Weatherstation",
+      "ESP32",
+      "LoRaWAN"
+    ],
     "fields": [
       {
         "type": "temperature",
